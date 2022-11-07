@@ -1,0 +1,250 @@
+* {
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+body{
+  background: linear-gradient(180deg, #000000 4.33%, #142807 33.33%, #000000 67.19%, #142807 100%);
+  background-repeat: no-repeat;
+}
+
+.main-color{
+  color: #61FF00;
+}
+
+.developer-color{
+  color: #FF9900; 
+}
+
+.designer-color{
+ color: #FF00D6;
+}
+
+
+/*  T E X T  */
+h1{
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+h2{
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+
+#projects > h2{
+  margin-bottom: 50px;
+}
+
+#projects > h3{
+  margin-bottom: 10px;
+}
+
+#projects > p{
+  margin-bottom:30px;
+}
+
+.porto-detail > h4
+{
+  display: inline-block;
+}
+
+.porto-detail > a > p{
+  opacity: 50%;
+  color: #61FF00;
+  font-size: 0.875rem;
+  margin: 0 0;
+  display: inline;
+}
+
+.porto-detail > a{
+  text-decoration: none;
+  width: fit-content;
+  height: fit-content;
+}
+
+.porto-detail > a:hover{
+  text-decoration: underline;
+  color: #61FF00;
+}
+
+span{
+  font-weight: 600;
+}
+
+h1, h3, h4, p {
+  margin-bottom:15px;
+}
+
+#contact-me > a{
+  color: #61FF00;
+  font-weight: 600;
+}
+
+.porto-detail > p {
+  width: 400px;
+  word-break: break-word;
+  white-space: normal;
+}
+
+/*  H E A D E R  */
+header {
+  padding: 30px 70px;
+  background: linear-gradient(180deg, #000000 -5.47%, rgba(0, 0, 0, 0) 100%);
+}
+
+.logo > img {
+  height: 40px;
+}
+
+.logo:hover {
+  filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.546));
+}
+
+.navbar-section > a {
+  margin-left: 100px;
+  text-decoration: none;
+  color: White;
+  font-size: 1rem;
+  font-weight: 300;
+  transition: all 0.3s ease;
+}
+
+.navbar-section > a:hover,
+.social-media > a > i:hover {
+  color: #61ff00;
+  filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.546));
+}
+
+
+/*  C O N T E N T  */
+.dots-right {
+  transform: scaleX(-1);
+}
+
+.dots-bottom{
+  transform: rotate(-90deg);
+}
+
+.dots-right, 
+.dots-left
+,.dots-bottom 
+{
+  opacity: 30%;
+  height: 1000px;
+  z-index: -5;
+}
+
+.content {
+  margin: 0 70px;
+  margin-bottom: 100px;
+}
+
+.box {
+  border: 1px solid #4a5568;
+  border-radius: 28px;
+  padding: 50px 70px;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.photo-profile{
+  height: 150px;
+  margin-bottom: 15px;
+}
+
+.skill-designer, .skill-developer{
+  width: fit-content;
+  font-weight: 500;
+  border-radius: 50px;
+  margin: 0 5px;
+  margin-bottom:10px;
+  background-color: white;
+  color: black;
+  font-size: 0.875rem;
+}
+
+.porto-list{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-bottom: 50px;
+  align-items: flex-start;
+}
+
+.porto-card{
+  height:70%;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.porto-card > a > img{
+  height:300px;
+  filter: grayscale(100%);
+  transition: all 0.3s ease;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.porto-card > a > img:hover{
+  filter: none;
+} 
+
+.porto-skill{
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 400px;
+}
+
+.porto-skill > p{
+  display: inline-block;
+  overflow: hidden;
+} 
+
+.skill-designer2, .skill-developer2{
+  width: fit-content;
+  font-weight: 500;
+  border-radius: 50px;
+  margin: 0 5px;
+  padding: 1px 12px;
+  margin-bottom:10px;
+  background-color: white;
+  color: black;
+  font-size: 0.875rem;
+}
+
+.porto-list, .porto-skill {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+.porto-list::-webkit-scrollbar, .porto-skill::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
+/* #projects{
+  background-image: url(Assets/dots\ effect\ 3.svg);
+  background-repeat: no-repeat;
+} */
+
+#contact-me{
+  background-image: url(Assets/dots\ effect\ 1:2.svg);
+}
+
+/* F O O T E R */
+footer{
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) -5.47%, #000000 100%);
+  padding: 50px;
+}
+
+.social-media > a > i{
+  font-size: 1.7rem;
+  transition: all 0.3s ease;
+}
+
+.social-media{
+  margin: 0 20px;
+  display: inline-block;
+}
