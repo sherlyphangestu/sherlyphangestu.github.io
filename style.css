@@ -50,7 +50,7 @@ h2{
 }
 
 .porto-detail > a > p{
-  opacity: 50%;
+  opacity: 80%;
   color: #61FF00;
   margin: 0 0;
   display: inline;
@@ -81,7 +81,7 @@ h1, h3, h4, p {
 }
 
 .porto-detail > p {
-  width: 27.8vw;
+  width: 25vw;
   word-break: break-word;
   white-space: normal;
 }
@@ -89,7 +89,7 @@ h1, h3, h4, p {
 .porto-detail > h4{
  word-break: break-word;
  white-space: normal;
- width: 27.8vw;
+ width: 25vw;
 }
 
 /*  H E A D E R  */
@@ -184,7 +184,7 @@ header {
 }
 
 .porto-card > a > img{
-  width: 27.8vw;
+  width: 25vw;
   filter: grayscale(100%);
   transition: all 0.3s ease;
   border-radius: 1.4vw;
@@ -199,7 +199,7 @@ header {
   display: block;
   overflow-x: auto;
   white-space: nowrap;
-  width: 27.8vw;
+  width: 25vw;
 }
 
 .porto-skill > p{
