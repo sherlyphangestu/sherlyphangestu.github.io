@@ -157,17 +157,6 @@ header {
   margin-bottom: 2.1vh;
 }
 
-.skill-designer, .skill-developer{
-  width: fit-content;
-  font-weight: 500;
-  border-radius: 3.5vw;
-  margin: 0 0.4vw;
-  margin-bottom:1.4vh;
-  background-color: white;
-  color: black;
-  font-size: 0.875rem;
-}
-
 .porto-list{
   width: 100%;
   height: fit-content;
@@ -207,7 +196,7 @@ header {
   overflow: hidden;
 } 
 
-.skill-designer2, .skill-developer2{
+.skill-designer, .skill-developer{
   width: fit-content;
   font-weight: 500;
   border-radius: 3.5vw;
