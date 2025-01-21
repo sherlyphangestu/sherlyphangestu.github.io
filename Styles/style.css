@@ -45,24 +45,6 @@ h2{
   display: inline-block;
 }
 
-.porto-detail > a > p{
-  opacity: 80%;
-  color: #61FF00;
-  margin: 0 0;
-  display: inline;
-}
-
-.porto-detail > a{
-  text-decoration: none;
-  width: fit-content;
-  height: fit-content;
-}
-
-.porto-detail > a:hover{
-  text-decoration: underline;
-  color: #61FF00;
-}
-
 span{
   font-weight: 600;
 }
@@ -94,6 +76,34 @@ h1, h3, h4, p {
  word-break: break-word;
  white-space: normal;
  width: 25vw;
+}
+
+/* B U T T O N */
+.button-rounded > p{
+  opacity: 80%;
+  margin: 0 0;
+  display: inline;
+}
+
+.button-rounded{
+  text-decoration: none;
+  width: fit-content;
+  height: fit-content;
+  border: 0.5px solid white;
+  border-radius: 5vw;
+  padding: 0.5vh 1vw;
+  transition: all 0.3s ease;
+}
+
+.button-rounded:hover{
+  background-color: #61FF00;
+  border: none;
+}
+
+.button-rounded:hover p,
+.button-rounded:hover span,
+.button-rounded:hover i{
+  color: black;
 }
 
 /*  H E A D E R  */
@@ -163,10 +173,10 @@ header {
 
 .porto-list{
   width: 100%;
-  height: fit-content;
   display: flex;
   overflow-x: auto;
   white-space: nowrap;
+  padding-bottom: 1vh;
   margin-bottom: 6.9vh;
   align-items: flex-start;
 }
