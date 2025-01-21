@@ -194,7 +194,7 @@ header {
   margin-bottom: 2.1vh;
 }
 
-.porto-card > a > img:hover{
+.porto-card:hover img{
   filter: none;
 } 
 
