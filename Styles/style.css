@@ -256,6 +256,28 @@ footer{
 }
 
 
+/* P O R T O   D E T A I L S */
+.project-short-description,
+.project-details-title{
+  opacity: 50%;
+  font-weight: 400;
+}
+
+#project-image-highlight img{
+  width: 100%;
+  object-fit: cover;
+}
+
+#project-details, #project-description{
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+
+#project-image-list img{
+  object-fit: cover;
+  height: 100%;
+}
+
 /* R E S P O N S I V E */
  /* large screen  */
 
@@ -313,6 +335,12 @@ footer{
 
   .photo-profile{
     height: 22vh;
+  }
+
+  /* P O R T O   D E T A I L S */
+  #project-details, #project-description{
+    margin-left: 10vw;
+    margin-right: 10vw;
   }
 }
 
@@ -373,6 +401,12 @@ footer{
 
     .porto-card > a > img{
       filter: none;
+    }
+
+    /* P O R T O   D E T A I L S */
+    #project-details, #project-description{
+      margin-left: 4.9vw;
+      margin-right: 4.9vw;
     }
 }
 
