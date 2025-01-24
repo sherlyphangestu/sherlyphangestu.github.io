@@ -140,11 +140,19 @@ header {
 /*  C O N T E N T  */
 .dots-right {
   transform: scaleX(-1);
+  right: -10%;
+  height: 100%;
 }
 
-.dots-right, 
-.dots-left
-{
+.dots-left {
+  left: -10%;
+  height: 100%;
+}
+
+.dots-box{
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
   height: 100vh;
   z-index: -5;
 }
@@ -324,9 +332,16 @@ footer{
     background-image: none;
   } */
 
-  .dots-left,
-  .dots-right{
+  .dots-box{
     height: 90vh;
+  }
+
+  .dots-left{
+    left: -10%;
+  }
+
+  .dots-right{
+   right: -10%;
   }
 
   h1{
@@ -386,9 +401,16 @@ footer{
       background-image: none;
     } */
 
-    .dots-left,
-    .dots-right{
+    .dots-box{
       height: 90vh;
+    }
+
+    .dots-left{
+      left: -10%;
+    }
+
+    .dots-right{
+      right: -10%;
     }
 
     h1{
@@ -452,9 +474,16 @@ footer{
       background-image: none;
     } */
 
-    .dots-left,
-    .dots-right{
+    .dots-box{
       height: 90vh;
+    }
+
+    .dots-left{
+      left: -35%;
+    }
+
+    .dots-right{
+      right: -35%;
     }
 
     h1{
