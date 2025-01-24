@@ -18,6 +18,11 @@
 
     <!-- Icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!-- Animation -->
+      <!-- cssanimation.io -->
+      <link href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css" rel="stylesheet">
+
   </head>
 
   <body>
@@ -39,8 +44,8 @@
       </div>
     </header>
 
-    <div class="content text-center" id="home">
-      <div class="box">
+    <div class="content text-center cssanimation rollFromBottom" id="home">
+      <div class="box" data-scrolly-top="flipY" data-scrolly-down="flipY">
         <img class="photo-profile" src="Assets/Photo's Sherly.svg" alt="" />
         <h1 style="font-weight: 200; margin-bottom:0">Hello World!</h1>
         <h1 class="main-color">I'm Sherly Phangestu</h1>
@@ -82,18 +87,18 @@
           <a class="button-rounded" href="https://binusianorg-my.sharepoint.com/personal/sherly_phangestu_binus_ac_id/_layouts/15/guestaccess.aspx?share=EQPxUYLE6lRAuuHoC-tLBiIBi1I3kWzzkGHurfpuiw5dCA" target="_blank"><p><i class="bi bi-eye-fill"></i> View <span class="main-color">Sherly's CV</span> <i class="bi bi-arrow-up-right"></i></p></a>
         </div>
       </div>
-      <div style="margin-top: 6vh">
+      <div class="cssanimation hu__hu__" style="margin-top: 6vh">
         <i class="bi bi-arrow-down-circle-fill" style="font-size:2rem; opacity: 50%;"></i>
         <p style="font-size:1rem; font-weight:200; opacity: 50%;">Scroll down</p>
       </div>
     </div>
 
     <div class="content" id="projects">
-      <h2><span class="main-color" style="font-weight: 800">//</span> Projects</h2>
+      <h2 data-scrolly-down="fadeInLeft" data-scrolly-top="fadeInLeft"><span class="main-color" style="font-weight: 800">//</span> Projects</h2>
 
       <!-- APPLICATION -->
-      <h3>Applications</h3>
-      <div class="porto-list">
+      <h3 data-scrolly-down="fadeInLeft" data-scrolly-top="fadeInLeft">Applications</h3>
+      <div class="porto-list" data-scrolly-down="fadeInLeft" data-scrolly-top="fadeInLeft">
         <div class="porto-card">
           <a href="Views/Porto Details/chamelurePortoDetailsView.html">
             <img src="Assets/porto/Chamelure Cover.png" alt="">
@@ -212,8 +217,8 @@
       </div>
 
       <!-- WEBSITE -->
-      <h3>Websites</h3>
-      <div class="porto-list">
+      <h3 data-scrolly-down="fadeInLeft" data-scrolly-top="fadeInLeft">Websites</h3>
+      <div class="porto-list" data-scrolly-down="fadeInLeft" data-scrolly-top="fadeInLeft">
         <div class="porto-card">
           <a href="Views/Porto Details/elearningBSLCPortoDetailsView.html">
             <img src="Assets/porto/E-Learning BSLC Cover.png" alt="">
@@ -271,7 +276,7 @@
 
     <div class="content" id="experiences">
       <div class="row justify-content-center">
-        <div class="col-md box">
+        <div class="col-md box" data-scrolly-down="rollFromLeft">
           <h3><span class="main-color" style="font-weight: 800">//</span> Experiences</h3>
           <ul>
             <li>
@@ -316,7 +321,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-md box">
+        <div class="col-md box" data-scrolly-down="rollFromRight">
           <h3><span class="main-color" style="font-weight: 800">//</span> Achievements</h3>
           <ul>
             <li>
@@ -344,7 +349,7 @@
       </div>
     </div>
 
-    <div class="content text-center" id="contact-me">
+    <div class="content text-center" id="contact-me" data-scrolly-down="fadeInTop" data-scrolly-top="fadeInTop">
       <h2>Get in touch</h2>
       <p style="margin: 0 0;">For business inquiry please send email to</p>
       <a href="mailto: phangestusherly@gmail.com" target="_blank">phangestusherly@gmail.com</a>
@@ -371,5 +376,13 @@
       
     </footer>
   
+    <!-- Script -->
+     <!-- Scrolly.js (cssanimation.io) -->
+     <script type="text/javascript" src="https://rawcdn.githack.com/yesiamrocks/scrolly.js/2a3d10b8065c42ad000859cf38ef55e6fff60973/scrolly.min.js"></script>
+     <script>
+      window.onload = function() {
+         scrolly();
+      }; 
+   </script>
   </body>
 </html>
