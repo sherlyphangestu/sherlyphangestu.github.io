@@ -196,15 +196,10 @@ header {
 
 .porto-card > a > img{
   width: 25vw;
-  filter: grayscale(100%);
   transition: all 0.3s ease;
   border-radius: 1.4vw;
   margin-bottom: 2.1vh;
 }
-
-.porto-card:hover img{
-  filter: none;
-} 
 
 .porto-skill{
   display: block;
@@ -421,10 +416,6 @@ footer{
       height: 18vh;
     }
 
-    .porto-card > a > img{
-      filter: none;
-    }
-
     /* P O R T O   D E T A I L S */
     #project-details, #project-description{
       margin-left: 4.9vw;
@@ -493,8 +484,4 @@ footer{
     .photo-profile{
       height: 15vh;
     }
-
-    .porto-card > a > img{
-      filter: none;
-    } 
 }
